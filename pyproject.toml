@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tiny-recurrent-lab"
+version = "0.1.0"
+description = "Reproducible experiments on one-to-three-neuron recurrent spiking circuits"
+requires-python = ">=3.10"
+
+[project.scripts]
+tiny-lab = "research_network.cli:main"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

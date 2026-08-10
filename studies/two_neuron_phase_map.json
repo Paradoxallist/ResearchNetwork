@@ -1,0 +1,9 @@
+{
+  "study_id": "two_neuron_hard_reset_weight_retention",
+  "neurons": [2], "topologies": "all", "input_count": 1,
+  "input_configurations": "all_valid", "reset_types": ["HARD_RESET"],
+  "thresholds": [1.0], "retentions": {"start": 0, "stop": 1, "step": 0.01},
+  "recurrent_weights": {"start": 0, "stop": 1, "step": 0.01},
+  "input_weights": [1.0], "simulation_ticks": 200,
+  "allow_large_sweep": false
+}
